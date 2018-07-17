@@ -1,24 +1,35 @@
 /* Typography */
 
-// Headings
 .p, body {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 600; // light bold
   line-height: 1.5;
   letter-spacing: -0.01em;
 }
+
+// Headings
 .h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 45px;
+  font-family: 'Pacifico', cursive;
+  font-size: 100pt;
   font-weight: 700;
   line-height: 1.1;
 }
+.h2,
+.h3,
+.h4,
 .h5 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
-  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700; // bold
   line-height: 1.2;
+}
+
+.h2 {
+  font-size: 30px;
+}
+
+.h3 {
+  font-size: 20px;
 }
 
 // Icon font
