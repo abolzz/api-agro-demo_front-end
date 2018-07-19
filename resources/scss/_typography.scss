@@ -2,7 +2,7 @@
 
 .p, body {
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600; // light bold
   line-height: 1.5;
   letter-spacing: -0.01em;
@@ -11,8 +11,8 @@
 // Headings
 .h1 {
   font-family: 'Pacifico', cursive;
-  font-size: 100pt;
-  font-weight: 700;
+  font-size: 70px;
+  font-weight: 400;
   line-height: 1.1;
 }
 .h2,
@@ -26,6 +26,11 @@
 
 .h2 {
   font-size: 30px;
+}
+
+.news-h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
 }
 
 .h3 {
