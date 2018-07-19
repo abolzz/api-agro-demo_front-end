@@ -3,7 +3,6 @@
 // General
 .site-content { 
 	padding-top: 140px;
-	padding-bottom: 50px;
 }
 
 .btn-1 {
@@ -26,15 +25,12 @@
 
 .border-brown { border: 5px solid $c_accent; }
 
-.about { 
-  padding: 60px 0 20px;
-  height: 350px;
-}
+.about { height: 350px; }
 .section-inner { padding: 40px 25px 30px; }
 .brush-bottom { width: 100%; }
 
 
-.doing { 
-  padding: 60px 0;
-}
+.section-inner-padding { padding: 60px 0; }
 .time-color { color: #948F8C; }
+.contact-bottom-bg { background: #FEE46E; }
+.news-img { height: 300px; }

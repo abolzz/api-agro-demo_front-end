@@ -36,6 +36,7 @@ img,
 
 // Text
   // General
+.underline { text-decoration: underline; }
 .all-caps { text-transform: uppercase; }
 .text-decor-none { text-decoration: none!important; }
 .list-style-none { list-style-type: none; }
@@ -87,6 +88,8 @@ input[type="submit"]:hover {
 .btn,
 .btn * {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, text-decoration 0.15s ease-in-out;
+  text-decoration: none;
+  color: $c_accent;
 }
 .btn:focus,
 .btn:hover {
