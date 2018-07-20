@@ -4,32 +4,35 @@
 			<main class="site-content">
 				<section id="kas-mes-esam" class="section bg-default">
 					<div class="container">
-                    	<div class="section-inner-padding row">
-                    		<!--
-                    			<img class="img" src="${require(`./img/garlic-1.png`)}" alt="Garlic">
-                    		-->
-	                        	<div class="section-inner border-brown">
+                    	<div class="section-inner-padding row flex-x-c">
+                    		<div class="container">
+                    			<img class="img absolute top-image" src="${require(`./img/garlic-1.png`)}" alt="Garlic">
+                    		</div>
+	                        	<article class="section-inner col col-10 border-brown inline-x-r">
 									<h1 class="h1">Kas mēs esam?</h1>
-									<p class="pull-right">
+									<p class="col-9 pull-right">
 										Mēs esam tie, kas tic, ka Latvijā mēs varam izaudzēt ķiplokus un nodrošināt mūsu Latvijas iedzīvotājus ar kvalitatīvu produkciju no ražas līdz ražai, nodrošinot attīstību Latvijas mazajām un vidējām zemnieku saimniecībām.
 									</p>
-								</div>
-						</div>
-
-						<div class="row flex-x-c">
-							<div class="col col-10 flex-x-r">
-							<button class="btn-1 all-caps">
-								<img class="col" src="${require(`./img/play-button.png`)}" alt="Play button">Skatīt video</button>
-							</div>
+								</article>
 						</div>
 					</div>
+
+						<div class="container">
+							<div class="row flex-x-c">
+								<div class="col-10 flex-x-r">
+									<button class="btn btn-1 all-caps">
+										<img class="col" src="${require(`./img/play-button.png`)}" alt="Play button">Skatīt video</button>
+								</div>
+							</div>
+						</div>
+
 					<img src="${require(`./img/brush.png`)}" alt="Brush">
 				</section>
 
 				<section id="ko-mes-daram" class="section flex-y-c">
 					<div class="container">
                     	<div class="section-inner-padding row flex-x-c">
-                    		<div class="section-inner col-8 border-brown">
+                    		<div class="section-inner col col-8 border-brown">
 								<h1 class="h1">Ko mēs darām?</h1>
 								<p class="col-8">
 									Mēs neaudzējām ķiploku, jo mēs ticam, ka ķiploks ir īpašs, viņš prasa uzmanību, aprūpi un mīlestību katru dienu, ko vislabāk un galvenais pareizā apjomā var nodrošināt zemnieks tāpēc mēs darām visu pārējo - gādājam ķiploku sēklas materiālu, sagatavojam to stādīšanai, vajadzības gadījumā palīdzam iestādīt un aprūpēt, lai ķiploks justos labi un augtu bagāts. Mēs iepērkam zemnieku izaudzēto tieši no lauka, tīrām to un žāvējam, šķirojam un glabājam. Sagatavojam pārdošanai veikaliem, tirgiem, kā arī pārstrādājam tālākos produktos kurus izmanto konservēšanas cehi, gaļas un zivju pārstrādes uzņēmumi.
@@ -39,10 +42,12 @@
 									Mēs meklējam latvietības sadarbības formu - mēs respektējam individualitāti, bet zinām konkurētspējas likumus, kurus apiet nav iespējams.
 								</p>
 							</div>
-							<!--
-							<img class="img" src="${require(`./img/tractor.jpg`)}" alt="Tractor">
-							<img class="img" src="${require(`./img/hand.jpg`)}" alt="Hand">
+							<div class="container">
+								<!--
+								<img class="img polygon-img absolute" src="${require(`./img/tractor.jpg`)}" alt="Tractor">
+								<img class="img polygon-img absolute" src="${require(`./img/hand.jpg`)}" alt="Hand">
 							-->
+							</div>
 						</div>
 					</div>
 				</section>
@@ -182,11 +187,11 @@
 
 				<section id="jaunumi" class="section bg-accent">
 					<img src="${require(`./img/brush-up.png`)}" alt="Brush">
-									<h1 class="h1 inline-x-c c-white">Jaunumi</h1>
 
 									<div class="container">
-				                    	<div class="row">
-				                    		<div class="flex-inline">
+				                    	<div class="section-inner-padding">
+				                    		<h1 class="h1 inline-x-c c-white">Jaunumi</h1>
+				                    		<div class="flex-inline row">
 
 												<div class="col col-4">
 													<img class="img news-img" src="${require(`./img/news-pic1.jpg`)}" alt="Garlics">
@@ -257,7 +262,7 @@
 				</section>
 
 				<section id="kontakti" class="section bg-default">
-					<div class="container">
+					<div class="container section-inner-padding">
 						<h1 class="h1 inline-x-c">Kontakti</h1>
 	                    	<div class="row flex-inline">                    		
 	                    		<div class="col col-4">
