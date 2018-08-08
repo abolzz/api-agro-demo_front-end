@@ -133,4 +133,19 @@ $(document).ready(function() {
 
   });
 
+
+  // Mobile menu
+  $("#menu-button").unbind("click").click(function() {
+        $("#menu-button").toggleClass("menu-button-open");
+        $("#site-header").toggleClass("z-top");
+        $("#mobile-menu-wrap").toggleClass("mobile-visible");
+    });
+
+  // News positioning
+  $('#news-aside').css({'margin-bottom': - $('#news-aside').height()/2});
+  $('#kontakti').css({'padding-top': $('#news-aside').height()/2 + 66});
+
+  // News image dynamic height
+  $('.news-img').css({'padding-top': $('.news-img').width()});
+
 });

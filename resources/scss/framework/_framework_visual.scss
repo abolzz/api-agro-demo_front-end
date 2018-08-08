@@ -22,7 +22,6 @@ img,
   width: auto;
   height: auto;
   max-width: 100%;
-  max-height: 100%;
 }
 
 	// Images for google maps
@@ -36,6 +35,8 @@ img,
 
 // Text
   // General
+.normal { font-weight: normal; }
+.bold { font-weight: bold; }
 .underline { text-decoration: underline; }
 .all-caps { text-transform: uppercase; }
 .text-decor-none { text-decoration: none!important; }
@@ -91,6 +92,8 @@ input[type="submit"]:hover {
   text-decoration: none;
   color: $c_accent;
 }
+.btn,
+.btn * { color: $c_white; }
 .btn:focus,
 .btn:hover {
   text-decoration: none;

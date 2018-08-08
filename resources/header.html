@@ -60,29 +60,41 @@
         <div class="site-wrap">
 
             <!-- site header -->
-            <header class="site-header flex-c-column bg-default">
+            <header id="site-header" class="site-header absolute">
                 <div class="container">
-                    <div class="row flex-x-c">
-                		<img class="logo" src="img/logo.png" alt="Api Agro logotips">
+                    <div class="row flex-y-c">
+                    	<div class="col-xl-12 col-lg-12 col-md-6 col-sm-9 col-8 flex-x-c">
+                			<a href="index.html"><img class="logo" src="img/logo.png" alt="Api Agro logotips"></a>
+                		</div>
+	                		<a id="menu-button" class="menu-button-close flex-x-r">
+	                			<div class="inner">
+	                				<span></span>
+	                				<span></span>
+	                				<span></span>
+	                				<span></span>
+	                			</div>
+	                		</a>
                 	</div>
                 </div>
 
-                <div class="container">
-                    <div class="row flex-x-c all-caps">
-		                <nav>
-		                	<ul class="navigation flex-x-c split-list list-style-none">
-		                		<li><a href="#kas-mes-esam" class="a">Kas mēs esam</a></li>
-		                		<li><a href="#ko-mes-daram" class="a">Ko mēs darām</a></li>
-		                		<li><a href="#zemniekiem" class="a">Zemniekiem</a></li>
-		                		<li><a href="#tirgotajiem" class="a">Tirgotājiem</a></li>
-		                		<li><a href="#jaunumi" class="a">Jaunumi</a></li>
-		                		<li><a href="#kontakti" class="a">Kontakti</a></li>
-		                	</ul>
-		                </nav>
-		                <ul class="split-list flex-x-c list-style-none">
-		                	<li><a class="a" href="#">Lv</a></li>
-		                	<li><a class="a" href="#">En</a></li>
-		                </ul>
+                <div class="container z-top">
+                    <div class="row-full-w flex-x-r-lg all-caps">
+                    	<div id="mobile-menu-wrap" class="mobile-menu-wrap col-md-12 col-sm-12 flex-x-c">
+			                <nav class="col-md-5 col-sm-5 col-xs-5">
+			                	<ul class="navigation flex-x-c-lg split-list list-style-none">
+			                		<li class="li"><a href="#kas-mes-esam" class="a">Kas mēs esam</a></li>
+			                		<li class="li"><a href="#ko-mes-daram" class="a">Ko mēs darām</a></li>
+			                		<li class="li"><a href="#zemniekiem" class="a">Zemniekiem</a></li>
+			                		<li class="li"><a href="#tirgotajiem" class="a">Tirgotājiem</a></li>
+			                		<li class="li"><a href="#jaunumi" class="a">Jaunumi</a></li>
+			                		<li class="li"><a href="#kontakti" class="a">Kontakti</a></li>
+			                	</ul>
+			                </nav>
+			                <ul class="col-md-7 col-sm-7 col-xs-7 split-list language flex-x-c-lg flex-x-r-sm list-style-none">
+			                	<li><a class="a" href="#">Lv</a></li>
+			                	<li><a class="a" href="#">En</a></li>
+			                </ul>
+			            </div>
 		            </div>
                 </div>
             </header>
